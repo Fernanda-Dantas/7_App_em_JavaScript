@@ -167,3 +167,12 @@ justify-content: center;
   text-decoration: none;
 }
 
+
+@media(max-width: 800px) { /*dispositivos 700 p baixo */
+  .glass {
+    display:grid;
+   z-index: 1;
+   min-height: 80vh;
+   width: 80%;
+  }
+
